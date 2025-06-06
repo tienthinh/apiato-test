@@ -116,6 +116,8 @@
                 <a href="{{ route('private_docs') }}">Api Private Documentation</a>
             </div>
         @endif
+
+        <p>app\Containers\AppSection\Authentication\UI\WEB\Controllers\HomePageController.php</p>
     </div>
 </div>
 </body>

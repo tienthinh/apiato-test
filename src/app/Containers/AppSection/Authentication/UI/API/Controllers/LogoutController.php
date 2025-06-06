@@ -12,6 +12,7 @@ class LogoutController extends ApiController
 {
     public function __invoke(LogoutRequest $request, ApiLogoutAction $action): JsonResponse
     {
+        dd(111);
         $action->run($request);
 
         return $this->accepted([
